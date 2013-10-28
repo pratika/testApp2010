@@ -1,7 +1,5 @@
 Myapp::Application.routes.draw do
-  get "photos/index"
 
-  get "pics/index"
 
   get "staticpages/index"
 
@@ -9,8 +7,7 @@ Myapp::Application.routes.draw do
   # first created -> highest priority.
   root :to => 'staticpages#index'
   resources :pics
-  resources :photos
-  resources :posts
+
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
