@@ -1,0 +1,79 @@
+html { 
+  background: url('background-paris.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.custom-font1 {
+    font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
+    font-size: 64px;
+    font-weight: 100;
+    color: white;
+ }
+
+.custom-font2 {
+    font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
+    font-size: 28px;
+    font-weight: 200;
+    color: white;
+    line-height: 30px;
+ }
+
+ .custom-font3 {
+    font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
+    font-size: 64px;
+    font-weight: 100;
+    color: black;
+ }
+
+.my-wrapper{
+	background-color: rgba(184,138,0,0.5);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(184,138,0);
+	height: 30%;
+	margin-bottom: 25px;
+	padding: 1%;
+}
+ .my-wrapper h2 {
+ 	color: yellow;
+ }
+
+.my-wrapper2{
+	background-color: rgba(184,138,0,0.5);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(184,138,0);
+	margin-bottom: 25px;
+}
+
+
+ .custom-title {
+ 	padding: 1%;
+ }
+
+ .custom-font-form {
+    font-family: Helvetica Neue,Helvetica,san-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgb(184,138,0);
+    line-height: 30px;
+ }
+
+ textarea{
+ 	width: 90%;
+ 	height: 150px;
+ }
+
+ input{
+ 	width: 90%;
+ }
+
+img {
+	height:100px;
+	width:200px;
+	padding: 25px;
+}
