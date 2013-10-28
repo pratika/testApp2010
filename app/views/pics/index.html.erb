@@ -1,4 +1,7 @@
-<h1 class="custom-font1"> My Pics </h1>
+
+<div class = "custom-title">
+	<h1 class="custom-font1"> My Pics </h1>
+</div>
 
 <% @pics.each do |pic| %>
 	<div class= "my-wrapper span3">
@@ -14,11 +17,6 @@
 			I learned that <%= pic.learned %>
 		</p>
 
-	<!-- <div >
-			<%= image_tag pic.image %>
-
-		</div>
-
-	</div> -->
+	</div>
 
 <% end %>
