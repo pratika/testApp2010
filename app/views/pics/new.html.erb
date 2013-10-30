@@ -1,11 +1,13 @@
-<h1>New Post sexy!</h1>
+<div class = "custom-title text-center">
+	<h1 class="custom-font3">Upload Your Pic</h1>
+</div>
 
-<%= simple_form_for @pic do |f| %>
-  <%= f.input :hour %>
-  <%= f.input :emotion %>
-  <%= f.input :learned %><!-- 
-  <%= f.input :caption %> -->
-  <%= f.button :submit, "Button Name" %>
-  <!-- 
-   <%= submit_tag "save" %> -->
-<% end %>
+<div class = "my-wrapper2 span4 offset5 text-center">
+	<%= simple_form_for @pic  do |f| %>
+	<%= f.input :hour,label: 'Which hour?', label_html: { class: 'custom-font-form' } %>
+	<%= f.input :image, as: :file, label_html: { class: 'custom-font-form' } %>
+	<%= f.input :emotion,label: 'how you feelin`', label_html: { class: 'custom-font-form' }%>
+	<%= f.input :learned,label: 'Whatch you learnin`', label_html: { class: 'custom-font-form' } %>
+	<%= submit_tag "Save", class: 'btn btn-large btn-warning' %>
+<% end %>	
+</div>

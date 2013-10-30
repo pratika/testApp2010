@@ -11,8 +11,6 @@ end
 
 def create
 		@pic =  Pic.create(params[:pic])
-		# @pic.save
-
 		redirect_to pics_path
 	end
 
