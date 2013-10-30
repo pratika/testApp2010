@@ -1,3 +1,3 @@
 class Pic < ActiveRecord::Base
-  attr_accessible :emotion, :hour, :learned
+  attr_accessible :emotion, :hour, :learned, :caption
 end

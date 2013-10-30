@@ -3,8 +3,9 @@
 <%= simple_form_for @pic do |f| %>
   <%= f.input :hour %>
   <%= f.input :emotion %>
-  <%= f.input :learned %>
-  <%= f.button :submit %>
+  <%= f.input :learned %><!-- 
+  <%= f.input :caption %> -->
+  <%= f.button :submit, "Button Name" %>
   <!-- 
    <%= submit_tag "save" %> -->
 <% end %>
