@@ -79,6 +79,9 @@ img {
   padding: 25px;
 }
 
+.full-width {
+  width: 100%;
+}
 
 /*.center-input {
   margin-left: 20%;
