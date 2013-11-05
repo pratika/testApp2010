@@ -6,9 +6,9 @@
   <div class="form-inputs my-wrapper2 span4 offset5 text-center">
     <%= f.input :email, :required => false, :autofocus => true %>
     <%= f.input :password, :required => false %>
-    <%= f.input :remember_me, :as => :boolean if devise_mapping.rememberable? %>
     <%= f.button :submit, "Sign In",class: "btn btn-warning"  %>
-  </div>
-
+    <br><h3>Not a member?</h3>
+    <%= link_to "Sign up", new_user_registration_path, class: "btn btn-warning"  %>
+  	</div>
 <% end %>
 

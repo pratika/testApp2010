@@ -1,4 +1,5 @@
 class PicsController < ApplicationController
+	before_filter :authenticate_user!
  
 def index
 	@pics = Pic.all
