@@ -2,7 +2,7 @@ class PicsController < ApplicationController
 	before_filter :authenticate_user!
  
 def index
-	@pics = Pic.all
+	@pics = current_user.pics.all
 end
 
 
@@ -11,7 +11,8 @@ end
  end
 
 def create
-		@pic =  Pic.create(params[:pic])
+		@pic = current_user.pics.build(params[:pic])
+		@pic.save
 		redirect_to pics_path
 	end
 
